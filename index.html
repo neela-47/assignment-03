@@ -34,13 +34,13 @@
      <script src="https://kit.fontawesome.com/1fb3628ce7.js" crossorigin="anonymous"></script>
 </head>
 <body class="font-manrope">
-    <header class=" bg-[#E9E9E9]">
+    <header class="pb-6">
         <!-- nav ber -->
          <div class="w-3/4 mx-auto">
             <div class="navbar">
                 <div class="navbar-start">
                   <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -72,40 +72,80 @@
                 </div>
                 
                 <div class="navbar-end">
-                   <div class="w-[35px] h-[35px] rounded-full bg-[#FFFFFF] mr-2">
+                   <div class="w-[35px] h-[35px] rounded-full bg-[#FFFFFF] mr-2 hidden lg:flex">
                     <i class="fa-solid fa-magnifying-glass-location ml-2 mt-2"></i>
                    </div>
                
-                <div class="w-[35px] h-[35px] rounded-full bg-[#FFFFFF] mr-2">
+                <div class="w-[35px] h-[35px] rounded-full bg-[#FFFFFF] mr-2 hidden lg:flex">
                     <i class="fa-solid fa-cart-shopping ml-2 mt-2"></i>
                    </div>
-                  <a class="btn bg-[#ABEF5F]">Book Consult 
-                    <div class="w-[30px] h-[30px] bg-[#1C1C1C] rounded-full">
-                        <i class="fa-solid fa-arrow-right -rotate-45  mt-2 text-[#FFFFFF]"></i>
-                       
-                     </div>
-                  </a>
+                   <div class="flex bg-[#ABEF5F]  h-[50px] w-[200px]  items-center justify-center rounded-3xl hidden md:flex">
+                    <p class="font-extrabold">Book Consult</p>
+                    <div class="w-[30px] h-[30px] bg-[#1C1C1C] rounded-full ml-2">
+                      <i class="fa-solid fa-arrow-right -rotate-45 ml-2 mt-2 text-[#FFFFFF]"></i>
+                     
+                   </div>
+                  
+                  </div>
+                  
                  
                 </div>
               </div>
-              <img src="assets/banner.png" alt="" class="mx-auto">
+              <img src="images/banner.png" alt="" class="mx-auto">
               <!-- contents -->
-              <div class="text-center">
-                <h1 class="text-[64px] font-extrabold">A barn house of this design has a striking appearance</h1>
+              <div class="text-center ">
+                <h1 class="text-[48px] font-extrabold">A barn house of this design has a striking appearance</h1>
               <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
               
-              <a class="btn bg-[#d9f99d] my-5">View Details
-                <div class="w-[30px] h-[30px] bg-[#ABEF5F] rounded-full">
+              <div class="flex bg-[#d9f99d] my-5 h-[50px] w-[206px]  items-center justify-center rounded-3xl mx-auto">
+                <p>View More</p>
+                <div class="w-[30px] h-[30px] bg-[#ABEF5F] rounded-full ml-2">
                     <i class="fa-solid fa-arrow-right -rotate-45  mt-2"></i>
                  </div>
-              </a>
+              
+              </div>
               </div>
          </div>
         
     </header>
-    <main>
+    <main class=" bg-base-200 ">
       <!-- about us -->
-      <section></section>
+      <section class=" w-3/4 mx-auto"> 
+        <div class="hero min-h-screen pt-4 ">
+          <div class=" hero-content flex">
+            <div>
+              <img src="images/Vector.png" alt="">
+              <div class="w-[127px] h-[38px] flex justify-center items-center space-x-1 bg-[#FFFFFF] rounded-3xl my-2">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p>About Us</p>
+              </div>
+              <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
+              <p class="py-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+              <div class="card card-side bg-base-100 shadow-xl mb-4">
+                <img src="images/commercial.png" alt="" class="w-16 h-16 mt-6 ml-3 ">
+                <div class="card-body">
+                  <h2 class="card-title">Commercial</h2>
+                  <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                 </div>
+                
+              </div>
+              <div class="card card-side bg-base-100 shadow-xl ">
+                <img src="images/residential.png" alt="" class="w-16 h-16 mt-6 ml-3">
+                <div class="card-body">
+                  <h2 class="card-title">Residential</h2>
+                  <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                 </div>
+                
+              </div>
+            </div>
+           <div>
+            <img src="images/Rectangle.png" class="max-w-sm rounded-lg shadow-2xl" />
+           </div>
+           
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
 </body>
