@@ -72,11 +72,11 @@
                 </div>
                 
                 <div class="navbar-end">
-                   <div class="w-[35px] h-[35px] rounded-full bg-[#FFFFFF] mr-2 hidden lg:block">
+                   <div class="w-[35px] h-[35px] rounded-full bg-[#FFFFFF] mr-2 hidden md:flex lg:block">
                     <i class="fa-solid fa-magnifying-glass-location ml-2 mt-2"></i>
                    </div>
                
-                <div class="w-[35px] h-[35px] rounded-full bg-[#FFFFFF] mr-2 hidden lg:block">
+                <div class="w-[35px] h-[35px] rounded-full bg-[#FFFFFF] mr-2 hidden md:flex lg:block">
                     <i class="fa-solid fa-cart-shopping ml-2 mt-2"></i>
                    </div>
                    <div class="lg:flex bg-[#ABEF5F]  h-[50px] w-[200px]  items-center justify-center rounded-3xl hidden md:flex">
@@ -87,7 +87,7 @@
                    </div>
                   
                   </div>
-                  <div class="md:hidden lg:hidden"> <i class="fa-solid fa-bars"></i></div>
+                  <div class="md:ml-3 lg:hidden"> <i class="fa-solid fa-bars"></i></div>
                  
                 </div>
               </div>
@@ -110,9 +110,9 @@
     </header>
     <main class=" bg-base-200 ">
       <!-- about us -->
-      <section class="  mx-auto"> 
+      <section class="lg:w-3/4 md:w-3/4  mx-auto"> 
         <div class="hero min-h-screen pt-4 ">
-          <div class=" hero-content flex flex-col ">
+          <div class=" hero-content flex flex-col lg:flex-row ">
             <div>
               <img src="images/Vector.png" alt="">
               <div class="w-[127px] h-[38px] flex  justify-center items-center space-x-1 bg-[#FFFFFF] rounded-3xl my-2">
@@ -246,8 +246,8 @@
                 </div>
                 </div>
                 <!-- img 2 -->
-               <div class="flex border rounded-xl p-3">
-                <img src="images/img2.png" alt="">
+               <div class="flex border rounded-xl p-3 max-w-7xl" >
+                <img src="images/img2.png" alt="" class="w-full">
               </div> 
             </div>
            <!-- img 6 hidden -->
@@ -374,6 +374,31 @@
               </div>
             </div>
            </div>
+        </section>
+
+        <!-- unique part -->
+        <section class="lg:w-3/4 md:w-3/4 mx-auto">
+          <div class="hero  min-h-screen">
+            <div class="hero-content  flex-col-reverse lg:flex-row">
+              <img
+                src="images/main-home-img-2.jpg"
+                class="max-w-sm rounded-lg shadow-2xl mr-4" />
+              <div>
+                <h1 class="text-5xl font-bold text-center">Explore your home
+                  loan options</h1>
+                <p class="py-6 text-[#737373] font-medium">
+                  It is better and more sensible to save or invest any liquid funds you have on hand. Because life is chaotic, our plans frequently become wrecked. A liquidity problem could arise down the road if you use up all of your available cash to buy a house in one go.
+                </p>
+                <div class="flex bg-[#d9f99d] my-5 h-[50px] w-[206px]  items-center justify-center rounded-3xl mx-auto">
+                  <p>View Details</p>
+                  <div class="w-[30px] h-[30px] bg-[#ABEF5F] rounded-full ml-2">
+                      <i class="fa-solid fa-arrow-right -rotate-45 ml-2  mt-2"></i>
+                   </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
        <!-- Next project -->
